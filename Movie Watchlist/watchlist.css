@@ -1,0 +1,94 @@
+*, *::before,*::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin:0;
+    background: #121212;
+}
+.heading{
+    min-width: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90%;
+    margin: 0 auto;
+    color: #FFF;
+    text-shadow: 1px 1px 1px black;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header {
+    gap:50px;
+    width: 100vw;
+    height: 200px;
+    padding: 0 30px;
+    background: url('images/header-bg.png');
+    
+}
+
+
+
+.movie-detail{
+    max-width: 600px;
+    display: flex;
+    margin: 2em auto;
+    color: #fff;
+}
+.poster{
+    width: 130px;
+    height: 100%;
+}
+.detail-container{
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2em;
+    justify-content: space-between;
+}
+.title-container{
+    display: flex;
+    min-width: 400px;
+}
+.title{
+    font-size: 1.2rem;
+    margin-right: 3em;
+}
+.runtime-container{
+    display: flex;
+    align-items: center;
+}
+.fa-star{
+    color: #FEC654;
+    margin-right: .5em
+}
+.genre{
+    margin: 0 1.5em
+}
+.fa-circle-minus{
+    color: red;
+    margin-right: .2em
+}
+.watchlist-btn{
+    width: 110px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #fff;
+    
+}
+.plot{
+    min-width: 400px;
+    color: #A5A5A5;
+    font-weight: 500;
+}
+.custom-line {
+    max-width: 650px;
+    height: 1px;
+    background-color: #2C2C2C;
+    margin: 0 auto;
+    border: 1.5px solid #2C2C2C
+}
